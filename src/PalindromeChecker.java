@@ -2,16 +2,21 @@ import java.sql.SQLOutput;
 
 public class PalindromeChecker {
     /*
-    UC1:APPLICATION ENTRY AND WELCOME MESSAGE
+    UC2:Print a Hardcoded Palindrome Result
      */
     public static void main(String[] args){
-        System.out.println("================================");
-        System.out.println("WELCOME TO PALINDROME CHECKER MANAGEMENT SYSTEM");
-        System.out.println("VERSION: 1.0");
-        System.out.println("AUTHOR: HARSHINI SHORI");
-        System.out.println("DESCRIPTION: This App checks whether a given number is a Palindrome or not.");
-        System.out.println("SYSTEM INITIALIZED SUCCESSFULLY");
-        System.out.println("==================================");
+        String input = "madam";
+        boolean isPalindrome = true;
+
+        for (int i = 0; i < input.length() / 2; i++) {
+            if (input.charAt(i) != input.charAt(input.length() - 1 - i)) {
+                isPalindrome = false;
+                break;
+            }
+        }
+
+        System.out.println("Input text: " + input);
+        System.out.println("Is it a Palindrome?: " + isPalindrome);
 
     }
 }
