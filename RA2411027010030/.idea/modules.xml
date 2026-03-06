@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Palindrome Checker/Palindrome Checker.iml" filepath="$PROJECT_DIR$/Palindrome Checker/Palindrome Checker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RA2411027010030.iml" filepath="$PROJECT_DIR$/.idea/RA2411027010030.iml" />
+    </modules>
+  </component>
+</project>
